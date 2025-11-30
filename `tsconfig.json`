@@ -1,4 +1,3 @@
-```json
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -18,8 +17,8 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "src/*/.ts",
-    "src/*/.tsx"
+    "**/*.ts",
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules",
@@ -27,4 +26,3 @@
     ".vercel"
   ]
 }
-```
